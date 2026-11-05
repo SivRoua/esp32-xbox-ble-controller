@@ -1,0 +1,13 @@
+idf_component_register(
+    SRCS
+        "src/xbox_controller.c"
+        "src/esp_hid_gap.c"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_hid
+        nvs_flash
+        bt
+        freertos
+        esp_timer
+)

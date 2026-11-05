@@ -1,0 +1,10 @@
+description: "Xbox Series X/S BLE Controller HID Host Driver for ESP32-S3 (Pure ESP-IDF & NimBLE)"
+version: "1.0.0"
+targets:
+  - esp32s3
+  - esp32
+  - esp32c3
+  - esp32c6
+dependencies:
+  idf:
+    version: ">=5.0"
