@@ -143,7 +143,7 @@ void app_main(void)
 
     ESP_ERROR_CHECK(xbox_controller_init(&cfg));
 
-    ESP_LOGI(TAG, "驱动已就绪。首次连接请【长按手柄顶部微型配对键】进入配对模式！");
+    ESP_LOGI(TAG, "驱动已就绪。首次配对请【长按手柄顶部Type-C旁的配对小按钮3秒】进入快闪配对广播！");
 
     // 主循环保持存活
     while (1) {

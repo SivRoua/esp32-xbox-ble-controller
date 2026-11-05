@@ -260,7 +260,7 @@ static void xbox_scan_and_connect_task(void *pvParameters)
 
         ESP_LOGI(TAG, "--------------------------------------------------");
         ESP_LOGI(TAG, "正在扫描周围的 Xbox 手柄 (持续3秒)...");
-        ESP_LOGI(TAG, "提示：首次连接请【长按手柄顶部配对小按钮】直到西瓜灯快闪！");
+        ESP_LOGI(TAG, "提示：首次配对请【长按手柄顶部Type-C旁的配对小按钮3秒】直到西瓜灯急促快闪！仅按西瓜键开机无法配对。");
         if (s_has_target_mac) {
             ESP_LOGI(TAG, "目标过滤 MAC: " ESP_BD_ADDR_STR, ESP_BD_ADDR_HEX(s_target_bda));
         }
